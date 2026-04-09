@@ -118,13 +118,22 @@ margin-left: auto;
 
 /* main content */
 .main-h{
-    background: #2e2f42;
+    background-color: #2e2f42;
 padding-top: 188px;
     padding-bottom: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+
         
     
  
@@ -174,16 +183,7 @@ padding-top: 188px;
 .our-team-img{
     background-color: #fff;;
 }
-.page-footer{
-    background-color: #2e2f42;;
-}
-.footer-text {
-    font-weight: 400;
-        font-size: 16px;
-     line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-}
+
 /* portfolio text */
 
 .portfolio{
@@ -224,6 +224,26 @@ padding-top: 188px;
 .portfolio-link{
     width: calc((100% - 72px)/4);
 }
+.portfolio-link-icon{
+    display: flex;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+}
+.portfolio_icon{
+ margin-left: 100px;
+ margin-top: 24px;
+ margin-right: 100px;
+ margin-bottom: 24px;
+}
+
+
+
+
 
 .portfolio-link-tittle-text{
     font-weight: 400;
@@ -277,19 +297,42 @@ padding-top: 188px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        
-        
 }
 
-        .our-team-card{
-            padding: 32px 16px;
-        }
+
+
+
+ .our-team-card{
+padding: 8px 16px;}
+
+
 
 .our-team-img{
     max-width: 264px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
+}
+.our-team-social{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
+        padding-bottom: 32px;
+        
+        
+        
+}
+.our-team-social-link{
+    fill: #f4f4fd;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }
 
 /* our portfolio */
@@ -348,11 +391,55 @@ padding-top: 188px;
         padding: 32px 16px;
 }
 
-.page-footer{
+/* footer */
+
+.page-footer {
+    background-color: #2e2f42;
     padding: 100px 0;
+    ;
 }
 
-.footer-text{
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
     width: 264px;
-    margin-top: 16px;
+        margin-top: 16px;
 }
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 120px
+    ;
+}
+.footer-text-social{
+    font-weight: 500;
+        font-size: 16px;
+    
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+.footer-social-link{
+    fill: #f4f4fd;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.footer-social{
+    display: flex;
+  
+}
+.footer-contacts {
+padding-bottom: 132px;
+}
+
