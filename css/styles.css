@@ -349,7 +349,7 @@ padding: 32px 16px;}
         
 }
 .our-team-social-link{
-    fill: #f4f4fd;
+    
     background-color: #4d5ae5;
     display: flex;
     align-items: center;
@@ -362,6 +362,10 @@ padding: 32px 16px;}
 .our-team-social-link:hover,
 .our-team-social-link:focus{
     background-color: #404bbf
+}
+
+.our-team-social-icon{
+    fill: #f4f4fd;
 }
 /* our portfolio */
 
@@ -499,7 +503,7 @@ padding: 32px 16px;}
         color: #fff;
 }
 .footer-social-link{
-    fill: #f4f4fd;
+    
     background-color: #4d5ae5;
     display: flex;
     align-items: center;
